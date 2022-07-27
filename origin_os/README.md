@@ -1,4 +1,4 @@
-###This is the origin_os backuo.
+### This is the origin_os backuo.
 
 Because We use a user's pad to get the image,so due to protecting the user's private information,We can't give  the userdata.img.
 
