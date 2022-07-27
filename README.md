@@ -22,7 +22,8 @@ These pads have specific systems and protections for only studying so that analy
   If you brick your phone or tablet , I will not take any responsibility.
   
   If you want to share your ideas or make any changes ,please use English.
-  New progress on 2022.7.27
+  
+  #### New progress on 2022.7.27
   ### PROGRESS MADE NOW
     Maintaining devices:
       BZT-W09:
