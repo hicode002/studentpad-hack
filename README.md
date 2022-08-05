@@ -23,7 +23,7 @@ These pads have specific systems and protections for only studying so that analy
   
   If you want to share your ideas or make any changes ,please use English.
   
-  #### New progress on 2022.7.27
+  #### New progress on 2022.8.5
   ### PROGRESS MADE NOW
     Maintaining devices:
       BZT-W09:
@@ -37,7 +37,7 @@ These pads have specific systems and protections for only studying so that analy
         ORIGIN_OS_HACK Origin OS hack successful,but origin iflytek software hack isn't started now.
         COMPLETELY_BOOT_FROM_SDCARD hard to achieve(almost impossible)
         KVM_ENABLED not start
-      
+        INSTALL_POSTMARKETOS continueing
   
   
   
