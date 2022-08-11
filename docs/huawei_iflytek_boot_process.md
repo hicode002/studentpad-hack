@@ -10,7 +10,7 @@ iflytek does not change any partition except version and userdata partition.
 So ,the iflytek system is the same as C00 normal system.
 
 But it just changes version partition to use xml and txt to disable and enable some configurations,and changes userdata partition to install its own software and encrypt the userdata  partition
- using AES. But the encryption keys are in the normal wolrd ,not secure world.
+ using AES. But the encryption keys are in the normal world ,not secure world.
  
  Huawei uses GPT partition table and it does not use standard UEFI boot.
  
