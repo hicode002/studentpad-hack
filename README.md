@@ -23,6 +23,8 @@ These pads have specific systems and protections for only studying so that analy
   
   If you want to share your ideas or make any changes ,please use English.
   
+  
+  Anyone who wants to edit it needs to contact me, then I will give him/her the permission to edit this repo.
   #### New progress on 2022.8.5
   ### PROGRESS MADE NOW
     Maintaining devices:
