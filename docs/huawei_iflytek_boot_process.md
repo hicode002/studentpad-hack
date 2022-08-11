@@ -5,7 +5,7 @@ iflytek device BZT-W09 uses huawei mediapad c5.Iflytek does not change any huawe
 
 iflytek just uses huawei's providing version and userdata partiton to realize its limited system.
 
-iflytek dose not change any partition except version and userdata partition.
+iflytek does not change any partition except version and userdata partition.
 
 So ,the iflytek system is the same as C00 normal system.
 
