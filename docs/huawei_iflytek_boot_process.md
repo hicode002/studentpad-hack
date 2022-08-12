@@ -81,7 +81,7 @@ But it just changes version partition to use xml and txt to disable and enable s
   
   This is called USERLOCK
   
-  It can be unlocked for Kirin 960 and older except Kirin 710 and Kirin 710a.
+  It can be unlocked for Kirin 960 and older except Kirin 710 and Kirin 710a.（o81018o:Kirin710 can actually be unlocked by IDT)
   
   You need the device unlock code to unlock device.
   
