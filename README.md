@@ -25,7 +25,7 @@ These pads have specific systems and protections for only studying so that analy
   
   
   Anyone who wants to edit it needs to contact me, then I will give him/her the permission to edit this repo.
-  #### New progress on 2022.8.5
+  #### New progress on 2022.8.12
   ### PROGRESS MADE NOW
     Maintaining devices:
       BZT-W09:
