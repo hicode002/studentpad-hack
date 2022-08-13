@@ -42,4 +42,6 @@ These pads have specific systems and protections for only studying so that analy
         INSTALL_POSTMARKETOS continueing
   
   
-  
+    Other chips:
+         Kirin710:
+            BOOTLOADER_UNLOCK may work ,not tested view 710unlock.7z
