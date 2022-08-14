@@ -81,6 +81,12 @@ But it just changes version partition to use xml and txt to disable and enable s
   
   This is called USERLOCK
   
+  Its unlocked state is stored in oeminfo partition.
+  
+  oeminfo is an encrypted partition ,and it is hard to decrypt it.
+  
+  So modifying oeminfo directly to unlock USERLOCK is hard.
+  
   It can be unlocked for Kirin 960 and older except Kirin 710 and Kirin 710a.（o81018o:Kirin710 can actually be unlocked by IDT)
   
   You need the device unlock code to unlock device.
@@ -145,8 +151,14 @@ But it just changes version partition to use xml and txt to disable and enable s
   
   fastboot erase( the same as above)
   
+  But in fastboot , there is a lock called FBLOCK.
+  
+  If FBLOCK enabled , fastboot only has very limited functions.
+  
+  But if it is unlocked , we can enable full fastboot function.
   
   In fastboot ,we can recover bricked devices, or  flash different systems.
+  
   
   But to enable full fastboot function ,We need to unlock FBLOCK
   
