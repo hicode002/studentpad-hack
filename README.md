@@ -25,6 +25,13 @@ These pads have specific systems and protections for only studying so that analy
   
   
   Anyone who wants to edit it needs to contact me, then I will give him/her the permission to edit this repo.
+  
+  o81018o is also an editor of this repo.
+  
+  He also publishes Chinese guides.
+  
+  view docs/other_docs.md to view them.
+  
   #### New progress on 2022.8.12
   ### PROGRESS MADE NOW
     Maintaining devices:
@@ -45,3 +52,4 @@ These pads have specific systems and protections for only studying so that analy
     Other chips:
          Kirin710:
             BOOTLOADER_UNLOCK may work ,not tested view 710unlock.7z
+   
