@@ -1,0 +1,7 @@
+/data/dalvik-cache/
+/data/misc/oma/
+/data/misc/vold/user_keys/ce/0/
+/data/misc/vold/user_keys/de/0/
+/data/unencrypted/
+/data/system/.*\.key
+/data/apkpush/

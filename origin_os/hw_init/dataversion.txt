@@ -1,0 +1,1 @@
+ro.confg.hw_userdataversion=BZT-W09 8.0.0.242(C923)_DATA_BZT-W09_all_cn
