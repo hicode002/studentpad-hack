@@ -32,7 +32,7 @@ These pads have specific systems and protections for only studying so that analy
   
   view docs/other_docs.md to view them.
   
-  #### New progress on 2022.8.12
+  #### New progress on 2022.8.16
   ### PROGRESS MADE NOW
     Maintaining devices:
       BZT-W09:
@@ -51,5 +51,5 @@ These pads have specific systems and protections for only studying so that analy
   
     Other chips:
          Kirin710:
-            BOOTLOADER_UNLOCK may work ,not tested view 710unlock.7z
+            BOOTLOADER_UNLOCK may work ,not tested , view 710unlock.7z
    
