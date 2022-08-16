@@ -4,7 +4,7 @@ For BZT-W09 and similar old chips devices(kirin 6xx, 710,960 and older chips exc
 
 First ,we need to enter vcom download mode and try to interact with the port and upload a full-function fastboot.
 
-Then ,we need to backup origin os via this fasrtboot.
+Then ,we need to backup origin os via this fastboot.
 
 Then ,we need to rewrite nvme partition to rewrite the SHA256 of the unlock code and FBLOCK state.
 
