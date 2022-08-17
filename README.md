@@ -32,7 +32,7 @@ These pads have specific systems and protections for only studying so that analy
   
   view docs/other_docs.md to view them.
   
-  #### New progress on 2022.8.16
+  #### New progress on 2022.8.17
   ### PROGRESS MADE NOW
     Maintaining devices:
       BZT-W09:
@@ -41,7 +41,7 @@ These pads have specific systems and protections for only studying so that analy
         TWRP_RECOVERY successful
         NORMAL_OS successful
         BACKUP_ORIGIN_OS successful without initial iflytek userdata.img(view in origin_os folder's README.md)
-        DUAL_BOOT_ANDROID half successful
+        DUAL_BOOT_ANDROID  successful
         SECURE_BOOT_DISABLED continueing and hard to achieve
         ORIGIN_OS_HACK Origin OS hack successful,but origin iflytek software hack isn't started now.
         COMPLETELY_BOOT_FROM_SDCARD hard to achieve(almost impossible)
