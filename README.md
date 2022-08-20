@@ -32,6 +32,9 @@ These pads have specific systems and protections for only studying so that analy
   
   view docs/other_docs.md to view them.
   
+  2022.8.20
+  
+  Start to write full docs 
   #### New progress on 2022.8.17
   ### PROGRESS MADE NOW
     Maintaining devices:
