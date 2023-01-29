@@ -55,5 +55,5 @@ These pads have specific systems and protections for only studying so that analy
     Other chips:
          Kirin710:
             BOOTLOADER_UNLOCK may work ,not tested , view 710unlock.7z
-         some ROMs have been uploaded,view release for more infromation.
+         Some ROMs have been uploaded, view Releases for more information.
    
