@@ -4,6 +4,7 @@ some hacks for studentpad for example bzt-w09 ags2-w09 x1pro bzc-w00 bzi-w00 c3 
 This is used to analyze studentpad such as bzt-w09 ags2-w09 x1pro and find bugs to get a better solution.
 These pads have specific systems and protections for only studying so that analyzing them is useful.
 
+#### View ![exploit/README.MD]exploit/readme.md!! I have new Kirin710A exploit using CVE!!
 ### DISCLAIMER:
   This is a free program that isn't allowed to be sold or use for business.
   
