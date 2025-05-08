@@ -1,3 +1,4 @@
+# This file contains a lot of errors!!!!Dismiss it!!!
 Unlike other android devices,
 Huawei devices using Kirin chips have their unique partition layout and unique boot process.
 
