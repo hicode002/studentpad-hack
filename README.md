@@ -36,6 +36,27 @@ These pads have specific systems and protections for only studying so that analy
   
   Start to write full docs 
   #### New progress on 2022.8.17
+  #### New Progress on 20250509
+  This is a repo collecting studentpad hacking,such as unlocking bootloader ,dual boot,getting root access,flashing back to normal system.
+  Now We can use checkm30 bootrom exploit to get Huawei Mediapad C3(BZC-W00) into normal system and getting temporary bootloader unlocking
+  This repo now supports
+  Huawei BZT-W09
+  Huawei AGS2-W09
+  Huawei BZC-W00
+  Huawei BZI-W00
+  and all devices with kirin 960 and lower
+  or Kirin 710,Kirin 710A,Kirin970,Kirin 980(not tested)
+
+  Now we can achieve:
+  Flash to normal system 
+  Get temporary bootloader unlock(fblock)
+  Permanently unlock bootloader with EMUI9 and lower
+  Dump partitions via patched fastboot(Kirin710,Kirin 960 and lower)
+
+  To get C00 firmware,view https://professorjtj.github.io/
+
+  For more details about checkm30 bootrom exploit and flashing procedure,view docs/.
+  
   ### PROGRESS MADE NOW
     Maintaining devices:
       BZT-W09:
