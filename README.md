@@ -1,5 +1,5 @@
 # studentpad-hack
-some hacks for studentpad for example bzt-w09 ags2-w09 x1pro
+some hacks for studentpad for example bzt-w09 ags2-w09 x1pro bzc-w00 bzi-w00 c3 c5 c6 c8
 
 This is used to analyze studentpad such as bzt-w09 ags2-w09 x1pro and find bugs to get a better solution.
 These pads have specific systems and protections for only studying so that analyzing them is useful.
