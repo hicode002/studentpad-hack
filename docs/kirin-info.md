@@ -50,6 +50,7 @@ I don't know.
 And if we just send part of images from update.app,the phone will print an error and stop any writing to emmc.
 But I don't see any messages sent to phone are about the numbers or the length of images.
 This is so strange.
+You can view dump2.bin to get full usb dump to analyze it.If you have any good suggestions,you can contact me.
 
 And for old CPU,some tools can upload any images to phone in this mode.
 In this way ,they can achieve going to brom download mode without testpoint
@@ -63,19 +64,19 @@ the bootrom will verify whether these keys are the same.
 then for loading xloader,they will use keys stored in emmc.
 for each image,they use three certs.The full signature takes the place of 0x1000 bytes.
 This is called VRL header.
-In vrl header,there is firmware version.So in theory,there is an only-allow-adding countert  storing version value to achieve
+In vrl header,there is firmware version.So in theory,there is an only-allow-adding counter  storing version value to achieve
 anti-rollback.
 but for all socs older than Kirin 990,the version value is 0.
 From EMUI10,huawei uses vbmeta .
 fastboot will verify the vrl header of vbmeta partition,if it passes,then fastboot will check the signature of boot recovery ramdisk erecovery version product vendor...
-(almost all partitions except low level firmwares) ,if they are the same as signature stoed in vbmeta.If all checks pass,the phone will boot.
+(almost all partitions except low level firmwares) ,if they are the same as signature stored in vbmeta.If all checks pass,the phone will boot.
 Another important thing is that the signature storing in vbmeta only changes when major android version changes(eg from EMUI9 to EMUI10)
 And for the same big version number(e.g bZC-w00 bzt-w09),different small version number(c000 c923...) shares the same vrl public key and most of signature stored in vbmeta
 the system vendor product partition are the exceptions.So don't flash vbmeta partitions(any vbmeta_xxx) and super partition(or system vendor product) when the bootloader is locked.
 Or you will get a bricked device!!!!
 And the secure boot will also check whether the version number is matched between oeminfo and vbmeta_xxx super(system vendor product).I can not confirm which stores the version number.
 If not matched,you will get your device has loader a different operating syetem and then rebooting into erecovery.
----------------------------------------------------------------------------------------
+
 
 
 
