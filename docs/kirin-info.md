@@ -25,6 +25,7 @@ There exists bootrom download mode.
 You can get into this mode only whether by shorting the testpoints or erasing xloader partition(or making xloader partition verification fails_)
 In this mode ,you can send xloader.img to memory to load xloader (in download mode)
 And in xloader,you are in download mode,you can send fastboot.img to memory directlyfor Kirin970 and older and send uce.img then fastboot.img for Kirin 710,710A,980,and newer.
+In bootrom download mode ,the secureboot verification still exists,so without exploits,you can not upload arbitary firmware.
 In fastboot mode,if you are from download mode,the dts will not init.So the screen and vibrator will not turn on.
 dts partition is shared between fastboot and kernel.
 fastboot use dts partition to light the screen and initialize hardware.
@@ -76,6 +77,14 @@ the system vendor product partition are the exceptions.So don't flash vbmeta par
 Or you will get a bricked device!!!!
 And the secure boot will also check whether the version number is matched between oeminfo and vbmeta_xxx super(system vendor product).I can not confirm which stores the version number.
 If not matched,you will get your device has loader a different operating syetem and then rebooting into erecovery.
+
+
+Firmware encryption:
+Kirin659 and older :not encrypted ,but trustfirmware and teeos maybe encrypted
+Kirin710 Kirin710A Kirin980 Lxloader not encrypted ,fastboot encrypted
+Kirin990 and newer xloader ,fastboot encrypted
+
+
 
 
 
