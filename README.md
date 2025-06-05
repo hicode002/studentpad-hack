@@ -98,8 +98,5 @@ These pads have specific systems and protections for only studying so that analy
       
   
   
-    Other chips:
-         Kirin710:
-            BOOTLOADER_UNLOCK may work ,not tested , view 710unlock.7z
-         Some ROMs have been uploaded, view Releases for more information.
+    For Kirin 710,it shares the same exploit address with Kirin 710A.No need to use any board firmware.
    
