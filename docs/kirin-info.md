@@ -72,7 +72,7 @@ From EMUI10,huawei uses vbmeta .
 fastboot will verify the vrl header of vbmeta partition,if it passes,then fastboot will check the signature of boot recovery ramdisk erecovery version product vendor...  
 (almost all partitions except low level firmwares) ,if they are the same as signature stored in vbmeta.If all checks pass,the phone will boot.  
 Another important thing is that the signature storing in vbmeta only changes when major android version changes(eg from EMUI9 to EMUI10)  
-And for the same big version number(e.g bZt-w00 bzt-w09),different small version number(c000 c923...) shares the same vrl public key and most of signature stored in vbmeta  
+And for the same big version number(e.g bZC-w00 bzt-w09),different small version number(c000 c923...) shares the same vrl public key and most of signature stored in vbmeta  
 the system vendor product partition are the exceptions.So don't flash vbmeta partitions(any vbmeta_xxx) and super partition(or system vendor product) when the bootloader is locked.  
 Or you will get a bricked device!!!!  
 And the secure boot will also check whether the version number is matched between oeminfo and vbmeta_xxx super(system vendor product).I can not confirm which stores the version number.  
